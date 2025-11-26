@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ratemybuy.ratemybuy",
+      "sha256_cert_fingerprints": [
+        "A7:D6:07:A5:2E:C3:42:3D:45:6E:0F:F5:74:17:42:C4:F0:BD:1C:54:F5:32:93:61:8C:AC:41:F2:A7:59:E4:2E",
+        "85:38:B0:3C:98:9B:04:8E:EF:EA:1D:89:31:3F:0C:7F:B1:4C:F4:8A:03:9C:CC:4F:5F:B8:C5:3E:84:19:B0:3C"
+      ]
+    }
+  }
+]
