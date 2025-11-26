@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Get RateMyBuy now!</title>
+<script>
+    const ua = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/android/i.test(ua)) {
+        window.location.href = "https://play.google.com/store/apps/details?id=com.ratemybuy.ratemybuy";
+    } 
+    else if (/iPad|iPhone|iPod/.test(ua)) {
+        window.location.href = "https://apps.apple.com/app/id6752779751";
+    } 
+    else {
+        // Fallback
+        window.location.href = "https://klemp-roeder.de/RateMyBuy/";
+    }
+</script>
+</head>
+<body>
+    <p>Download RateMyBuy from the AppStore or PlayStore!</p>
+</body>
+</html>
